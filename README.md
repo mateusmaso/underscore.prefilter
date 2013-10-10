@@ -6,7 +6,7 @@ var bark = function(sentence) {
   alert("woof " + sentence + "!");
 };
 
-var bark = _.prefilter(bark, function(sentence) {
+bark = _.prefilter(bark, function(sentence) {
   return !_.isNumber(sentence); 
 });
 
