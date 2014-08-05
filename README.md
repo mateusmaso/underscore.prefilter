@@ -19,7 +19,7 @@ var bark = function(sentence) {
 };
 
 bark = _.prefilter(bark, function(sentence) {
-  return !_.isNumber(sentence); 
+  return !_.isNumber(sentence);
 });
 
 bark("woof"); // woof woof!
