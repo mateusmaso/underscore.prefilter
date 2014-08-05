@@ -1,3 +1,12 @@
+// underscore.prefilter
+// --------------------
+// v0.1.0
+//
+// Copyright (c) 2013-2014 Mateus Maso
+// Distributed under MIT license
+//
+// http://github.com/mateusmaso/underscore.prefilter
+
 (function(root, factory) {
 
   if (typeof exports !== 'undefined') {
