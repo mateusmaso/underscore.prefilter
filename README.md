@@ -1,6 +1,7 @@
 underscore.prefilter [![Build Status](https://travis-ci.org/mateusmaso/underscore.prefilter.svg?branch=master)](https://travis-ci.org/mateusmaso/underscore.prefilter)
 ====================
-This library is an extension for Underscore which allows wraping a conditional function before executing the main one, if true it passes and calls the subsequent method.
+
+This library is an extension for Underscore which allows wrapping a conditional method before executing the main one, if true it calls the subsequent method.
 
 ## Features
 
@@ -8,7 +9,7 @@ This library is an extension for Underscore which allows wraping a conditional f
 
 ## Dependencies
 
-* underscore.js (>= 1.5)
+* underscore.js (>= 1.5.0)
 
 ## Node
 
