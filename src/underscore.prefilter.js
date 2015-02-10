@@ -16,8 +16,6 @@
       return function() {
         if (filter.apply(this, arguments)) {
           return method.apply(this, arguments);
-        } else {
-          return false;
         }
       };
     }
