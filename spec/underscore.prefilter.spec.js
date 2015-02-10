@@ -16,6 +16,6 @@ describe("underscore.prefilter", function() {
   });
 
   it("should prevent method", function() {
-    chai.expect(this.print("bar")).to.equal(false);
+    chai.expect(this.print("bar")).to.equal(undefined);
   });
 });

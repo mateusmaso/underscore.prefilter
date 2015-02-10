@@ -30,7 +30,7 @@ bark = _.prefilter(bark, function(sentence) {
 });
 
 bark("woof"); // woof woof!
-bark(123); // false
+bark(123); // undefined
 ```
 
 ## License

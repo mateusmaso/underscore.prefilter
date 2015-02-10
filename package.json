@@ -1,7 +1,7 @@
 {
   "name": "underscore.prefilter",
   "description": "Underscore helper for pre-filtering methods before calling them",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "mateusmaso",
   "keywords": ["underscore", "javascript", "prefilter", "filter"],
   "devDependencies": {

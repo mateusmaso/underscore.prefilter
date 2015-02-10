@@ -1,8 +1,8 @@
 // underscore.prefilter
 // --------------------
-// v0.1.1
+// v0.1.2
 //
-// Copyright (c) 2013-2014 Mateus Maso
+// Copyright (c) 2013-2015 Mateus Maso
 // Distributed under MIT license
 //
 // http://github.com/mateusmaso/underscore.prefilter
@@ -25,8 +25,6 @@
       return function() {
         if (filter.apply(this, arguments)) {
           return method.apply(this, arguments);
-        } else {
-          return false;
         }
       };
     }
